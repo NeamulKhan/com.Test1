@@ -18,6 +18,6 @@ public class Signup extends BaseClassTest1{
 	@When("I click signupLink, enter user name, password and click signup button")
 	public void i_click_signup_link_enter_user_name_password_and_click_signup_button() throws Exception {
 	   
-		 homepageActionTest1.click_signupLink();
+		 homepageActionTest1.click_signupLink_enter_user_name_password_and_click_signup_button();
 	}
 }
