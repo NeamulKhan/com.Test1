@@ -24,7 +24,7 @@ public class Login extends BaseClassTest1{
 	
 
 	@When("I click loginLink, enter user name, password and click login button")
-	public void i_click_login_link_enter_user_name_password_and_click_login_button() throws Exception {
+	public void click_login_link_enter_user_name_password_and_click_login_button() throws Exception {
    
 		homepageActionTest1.click_loginLink_enter_user_name_password_and_click_login_button();
 		
@@ -37,19 +37,6 @@ public class Login extends BaseClassTest1{
 }
 
 	
-	@When("I click loginLink,enter user name, password and click login button")
-	public void i_click_login_link_enter_user_name_password_and_click_login_button() {
-	    
-		
-	}
-
-	@Then("verify user can successfully login")
-	public void verify_user_can_successfully_login() {
-	    
-		
-	}
-
-
 
 
 }

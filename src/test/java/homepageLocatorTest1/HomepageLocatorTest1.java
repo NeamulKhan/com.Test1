@@ -19,10 +19,10 @@ public class HomepageLocatorTest1 extends BaseClassTest1{
 	public WebElement loginLink;
 	
 	@FindBy (id="loginusername")
-	public WebElement username;
+	public WebElement username1;
 	
 	@FindBy (id="loginpassword")
-	public WebElement password;
+	public WebElement password1;
 	
 	@FindBy (xpath="//*[@id=\"logInModal\"]/div/div/div[3]/button[2]")
 	public WebElement loginButton;

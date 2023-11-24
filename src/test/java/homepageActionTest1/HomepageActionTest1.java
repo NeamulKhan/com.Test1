@@ -15,9 +15,9 @@ public class HomepageActionTest1 extends BaseClassTest1{
 		homepageLocatorTest1.loginLink.click();
 		Thread.sleep(3000);
 		
-		homepageLocatorTest1.username.sendKeys("raisa");
+		homepageLocatorTest1.username1.sendKeys("raisa");
 		Thread.sleep(3000);
-		homepageLocatorTest1.password.sendKeys("123456");
+		homepageLocatorTest1.password1.sendKeys("123456");
 		Thread.sleep(3000);
 		homepageLocatorTest1.loginButton.click();
 		
