@@ -10,14 +10,14 @@ public class Login extends BaseClassTest1{
 	
 	HomepageActionTest1 homepageActionTest1 = new HomepageActionTest1();
 
-/*
+
 	@Given("Launch {string}")
 	public void launch(String URL) {
 	   
 		test1launchURL(URL);	
 		
 	}	
-	*/
+	
 
 	@When("I click loginLink, enter user name, password and click login button")
 	public void i_click_login_link_enter_user_name_password_and_click_login_button() throws Exception {
