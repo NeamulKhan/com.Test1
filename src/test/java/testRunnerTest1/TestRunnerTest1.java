@@ -12,7 +12,10 @@ import utilityTest1.BaseClassTest1;
 
 @CucumberOptions(features= {"src/test/resources/FeatureFolderTest1"},
 plugin={"json:target/cucumber.json"},
-glue="stepDefinationTest1", tags= "@LoginTest1"
+
+glue="stepDefinationTest1", tags= "@LoginTest1" //"@LoginTest1"
+
+
 		)
 
 public class TestRunnerTest1 extends AbstractTestNGCucumberTests {
@@ -28,11 +31,13 @@ public class TestRunnerTest1 extends AbstractTestNGCucumberTests {
 		 
 		 @AfterTest
 		 
-		 public void closerURL() throws IOException{
+		 public void closerURL() throws IOException, Exception{
 			 
 			 BaseClassTest1 test = new BaseClassTest1();
 			 
-			// test.driver.quit();
+			 Thread.sleep(5000);
+			 
+			 test.driver.quit();
 			 
 			
 		 
