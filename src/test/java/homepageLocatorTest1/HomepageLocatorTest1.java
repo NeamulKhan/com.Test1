@@ -14,6 +14,17 @@ public class HomepageLocatorTest1 extends BaseClassTest1{
 		
 	}
 	
-	@FindBy(id="signin2")
-	public WebElement signupLink;
+	@FindBy(id="login2")
+	public WebElement loginLink;
+	
+	@FindBy (id="loginusername")
+	public WebElement username;
+	
+	@FindBy (id="loginpassword")
+	public WebElement password;
+	
+	@FindBy (xpath="//*[@id=\"logInModal\"]/div/div/div[3]/button[2]")
+	public WebElement loginButton;
+	
+	
 }
