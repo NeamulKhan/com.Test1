@@ -10,10 +10,12 @@ import io.cucumber.testng.CucumberOptions;
 import utilityTest1.BaseClassTest1;
 
 
-@CucumberOptions(features= {"src/test/resources/FeatureFolderTest1"},
-plugin={"json:target/cucumber.json"},
 
-glue="stepDefinationTest1", tags= "@SignupTest1 and @LoginTest1" 
+@CucumberOptions(features= {"src/test/resources/FeatureFolderTest1"},
+//plugin={"json:target/cucumber.json", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+
+plugin= {"pretty","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+glue="stepDefinationTest1",tags= "@LoginTest1" 
 
 		)
 
