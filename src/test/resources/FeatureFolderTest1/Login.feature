@@ -1,4 +1,4 @@
-Feature: This feature is for login functionality
+Feature: This feature is for login functionality of demoblaze
 
 @LoginTest1
 
